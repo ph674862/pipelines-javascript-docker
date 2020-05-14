@@ -20,5 +20,3 @@ steps:
     command: buildAndPush
     Dockerfile: app/Dockerfile
     containerRegistry: nwfcontainerregistry.azurecr.io
-    tags:
-      - latest
