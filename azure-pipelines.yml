@@ -17,5 +17,8 @@ steps:
   displayName: Build an image
   inputs:
     repository: $(imageName)
-    command: build
+    command: buildAndPush
     Dockerfile: app/Dockerfile
+    containerRegistry: nwfcontainerregistry.azurecr.io
+        tags: |
+          NWF1
