@@ -19,4 +19,4 @@ steps:
     repository: NWFOrderService
     command: buildAndPush
     Dockerfile: app/Dockerfile
-    containerRegistry: nwfcontainerregistry.azurecr.io
+    containerRegistry: nwfcontainerregistry
